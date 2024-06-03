@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Page - UrziStore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="images/urzi-logo.png"/></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+          </ul>
+          </nav>
+          <a href="cart.html"></a><img src="images/cart.jpg" width="30px" height="30px" ></a>
+          <img src="images/menu.jpg" class="menu-icon" onclick="menutoggle()" />
+        </div>
+      </div>
+    </div>
+
+    <!---account page-->
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/side-eye.png" alt="">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form action="connect.php" method="post" id="LoginForm">
+                            <input type="text" placeholder="Username" name="Username">
+                            <input type="password" placeholder="Password" name="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot password</a>
+                        </form>
+
+                        <form action="connect.php" method="post" id="RegForm">
+                        <input type="text" placeholder="Username" name="Username">
+                        <input type="email" placeholder="Email" name="Email">
+                        <input type="password" placeholder="Password" name="Password">
+                        <button type="submit" class="btn">Register</button>
+                        <a href="">Forgot password</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!----Footer---->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Dowload our App</h3>
+            <p>Download App for Android and ios mobile phone</p>
+            <div class="app-logo">
+              <img src="images/play-store.jpg" />
+              <img src="images/app-store.jpg" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-white.jpg" alt="" />
+            <p>
+              Our Purpose is to sustainably make the pleasure and benefits of
+              sports accessible to the many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-1">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">© 2024 UrziStore. All Rights Reserved.</p>
+      </div>
+    </div>
+    <!---js for toggle menu---->
+    
+    <script>
+      var LoginForm = document.getElementById("LoginForm");
+var RegForm = document.getElementById("RegForm");
+var Indicator = document.getElementById("Indicator");
+
+function register(){
+  RegForm.style.transform = "translateX(0px)";
+  LoginForm.style.transform = "translateX(0px)";
+  Indicator.style.transform = "translateX(100px)";
+}
+function login(){
+  RegForm.style.transform = "translateX(300px)";
+  LoginForm.style.transform = "translateX(300px)";
+  Indicator.style.transform = "translateX(0px)";
+}
+    </script>
+    
+  </body>
+</html>

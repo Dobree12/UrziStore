@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products - UrziStore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="images/urzi-logo.png"  /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+          </ul>
+          </nav>
+          <a href="cart.html"></a><img src="images/cart.jpg" width="30px" height="30px" ></a>
+          <img src="images/menu.jpg" class="menu-icon" onclick="menutoggle()" />
+        </div>
+      </div>
+    </div>
+    <div class="small-container">
+        <div class="row row-2" >
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting </option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+      <div class="row">
+        <div class="col-4">
+          <a href="product-details.html"><img src="images/laptop-1.jpg" ></a>
+          <h4>
+            Laptop HP 15-fc0009nq, AMD Ryzen 7 7730U pana la 4.5GHz, 15.6" Full
+            HD, 8GB, SSD 512GB, AMD Radeon Graphics, Free DOS, argintiu
+          </h4>
+          <!-- stelutele pt rating, fa-star = stea plina, -o goala-->
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>2000 lei</p>
+        </div>
+        <div class="col-4">
+          <img src="images/laptop-2.jpg" />
+          <h4>
+            Laptop ASUS Zenbook 14 OLED UX3402ZA-KM390W, Intel Core i7-1260P
+            pana la 4.7GHz, 14" 2.8K, 16GB, SSD 1TB, Inte Iris Xe Graphics,
+            Windows 11 Home, Ponder Blue
+          </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>2500 lei</p>
+        </div>
+        <div class="col-4">
+          <img src="images/laptop-3.jpg" />
+          <h4>
+            Laptop APPLE MacBook Air 13 mly13ze/a, Apple M2, 13.6" Retina
+            Display, 8GB, SSD 256GB, 8-core GPU, macOS Monterey, Starlight,
+            Tastatura layout INT
+          </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>5000 lei</p>
+        </div>
+        <div class="col-4">
+          <img src="images/laptop-4.jpg" />
+          <h4>
+            Laptop ASUS Zenbook 14 OLED UX3402ZA-KP125W, Intel Core i5-1240P
+            pana la 4.4GHz, 14" WQXGA, 16GB, SSD 512GB, Inte Iris Xe Graphics,
+            Windows 11 Home, Aqua Celadon
+          </h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>3500 lei</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/laptop-1.jpg" >
+          <h4>Laptop HP 15-fc0009nq, AMD Ryzen 7 7730U pana la 4.5GHz, 15.6" Full HD,
+             8GB, SSD 512GB, AMD Radeon Graphics, Free DOS, argintiu</h4>
+        <!-- stelutele pt rating, fa-star = stea plina, -o goala-->
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+            <p>2000 lei</p>
+        </div>
+        <div class="col-4">
+          <img src="images/laptop-2.jpg" >
+          <h4>Laptop ASUS Zenbook 14 OLED UX3402ZA-KM390W, 
+            Intel Core i7-1260P pana la 4.7GHz, 14" 2.8K, 16GB, SSD 1TB,
+             Inte Iris Xe Graphics, Windows 11 Home, Ponder Blue</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o" ></i>
+            <i class="fa fa-star-half-o" ></i>
+          </div>
+            <p>2500 lei</p>
+        </div>
+        <div class="col-4">
+          <img src="images/laptop-3.jpg" >
+          <h4>Laptop APPLE MacBook Air 13 mly13ze/a, Apple M2, 13.6" Retina Display, 8GB,
+             SSD 256GB, 8-core GPU, macOS Monterey, Starlight, Tastatura layout INT</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+            <p>5000 lei</p>
+        </div>
+        <div class="col-4">
+          <img src="images/laptop-4.jpg" >
+          <h4>Laptop ASUS Zenbook 14 OLED UX3402ZA-KP125W, Intel Core i5-1240P pana la 4.4GHz,
+             14" WQXGA, 16GB, SSD 512GB, Inte Iris Xe Graphics, Windows 11 Home, Aqua Celadon</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+            <p>3500 lei</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/telefon-1.jpg" >
+          <h4>Telefon APPLE iPhone 15 5G, 128GB, Black</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+            <p>2000 lei</p>
+        </div>
+        <div class="col-4">
+          <img src="images/telefon-2.jpg" >
+          <h4>Telefon APPLE iPhone 14 5G, 128GB, Blue</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o" ></i>
+            <i class="fa fa-star-half-o" ></i>
+          </div>
+            <p>2500 lei</p>
+        </div>
+        <div class="col-4">
+          <img src="images/telefon-3.jpg ">
+          <h4>Telefon APPLE iPhone 13 5G, 128GB, Black</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+            <p>5000 lei</p>
+        </div>
+        <div class="col-4">
+          <img src="images/telefon-4.jpg"  alt="lalala">
+          <h4>Telefon APPLE iPhone 13 5G, 128GB, Red</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+
+          </div>
+            <p>3500 lei</p>
+        </div>
+      </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+      </div>
+    </div>
+    <!----Footer---->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Dowload our App</h3>
+            <p>Download App for Android and ios mobile phone</p>
+            <div class="app-logo">
+              <img src="images/play-store.jpg" />
+              <img src="images/app-store.jpg" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo-white.jpg" alt="" />
+            <p>
+              Our Purpose is to sustainably make the pleasure and benefits of
+              sports accessible to the many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-1">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">© 2024 UrziStore. All Rights Reserved.</p>
+      </div>
+    </div>
+    <!---js for toggle menu---->
+    <script src="script.js"></script>
+  </body>
+</html>
