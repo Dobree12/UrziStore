@@ -15,6 +15,7 @@ UrziStore este o platformă online specializată în vânzarea produselor IT și
 - Prezintă cele mai populare sau recomandate 4 produse.
 - Fiecare produs este însoțit de o scurtă descriere și de rating-ul acordat de clienți.
 - Oferă o privire rapidă asupra produselor de top disponibile.
+![image](https://github.com/Dobree12/UrziStore/assets/147713217/0a325c0b-0136-4ee2-b2c6-79814a395fbc)
 
 ### Secțiunea Latest Products
 - Situată imediat după secțiunea "Featured Products".
