@@ -15,20 +15,30 @@ UrziStore este o platformă online specializată în vânzarea produselor IT și
 - Prezintă cele mai populare sau recomandate 4 produse.
 - Fiecare produs este însoțit de o scurtă descriere și de rating-ul acordat de clienți.
 - Oferă o privire rapidă asupra produselor de top disponibile.
-![image](https://github.com/Dobree12/UrziStore/assets/147713217/0a325c0b-0136-4ee2-b2c6-79814a395fbc)
+
+  ![image](https://github.com/Dobree12/UrziStore/assets/147713217/3e1cb8cb-6d33-45f9-9601-fc7d8aa70765)
 
 ### Secțiunea Latest Products
 - Situată imediat după secțiunea "Featured Products".
 - Prezintă cele mai recente produse adăugate.
 - Permite utilizatorilor să fie mereu la curent cu ultimele adiții la gama noastră de produse.
 
+- ![image](https://github.com/Dobree12/UrziStore/assets/147713217/f1c86464-c1f7-4229-85e6-e0dece36aab2)
+
+
 ### Best-Seller-ul Lunii
 - Evidențiat mai aparte pentru vizibilitate sporită.
 - Include o scurtă descriere și un buton care redirecționează utilizatorul către "Product-details", unde se găsesc toate informațiile și posibilitatea de a-l achiziționa.
 
+- ![image](https://github.com/Dobree12/UrziStore/assets/147713217/7c66c99a-1881-47d8-b308-0a6d934f5c39)
+
+
 ### Recenzii și Colecția de Logo-uri Upt
 - Adăugate recenzii pentru o mai bună înțelegere a produselor.
 - O colecție de logo-uri din cadrul Upt, care se colorează și redirecționează către site-urile oficiale când sunt apăsate.
+
+- ![image](https://github.com/Dobree12/UrziStore/assets/147713217/ecb53a3e-4a48-40bb-bc9f-9d59afa48bb7)
+
 
 ### Pagina "Products"
 - Afișează toate produsele disponibile pe platformă.
